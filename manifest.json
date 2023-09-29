@@ -1,5 +1,5 @@
 {
-  "name": "Run Javascript",
+  "name": "Drive Booking",
   "description": "Run custom Javascript, each time you visit a website",
   "version": "1.11",
   "permissions": [
@@ -7,7 +7,7 @@
     "activeTab"
   ],
   "browser_action": {
-      "default_title": "Run Javascript",
+      "default_title": "Drive Booking",
       "default_icon": "icon.png",
       "default_popup": "popup.html"
   },
