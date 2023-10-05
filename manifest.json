@@ -31,8 +31,8 @@
         "https://*/*"
       ],
       "content_security_policy": "script-src 'self' https://www.google-analytics.com; script-src 'self' 'unsafe-eval'; object-src 'self'",
-      "permissions": ["lib_jquery_3_3_1.js", "lib_jquery_2_2_4.js", "lib_jquery_1_12_4.js","cdnjs.cloudflare.com_ajax_libs_crypto-js_4.1.1_crypto-js.min.js"],
-      "js": ["lib_jquery_3_3_1.js", "inject.js","cdnjs.cloudflare.com_ajax_libs_crypto-js_4.1.1_crypto-js.min.js"],
+      "permissions": ["lib_jquery_3_3_1.js", "lib_jquery_2_2_4.js", "lib_jquery_1_12_4.js","crypto-js.js"],
+      "js": ["lib_jquery_3_3_1.js", "inject.js","crypto-js.js"],
       "run_at": "document_end"
       }
   ],
